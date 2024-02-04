@@ -8,21 +8,23 @@ body {
 }
 
 h1 {
-    text-align: center;
+    
     font-family: Bakso Sapi;
     font-size: 24pt; /* Larger font size for H1 */
     color: #e291c0; /* Blue color for H1 */
-    
+    position: absolute; /* taken out of the normal flow of the document */
     top: 20%; /* moved down by 20% of the screen height */
+    text-align: center;
 }
 
 h2 {
-    text-align: center;
     font-family: Nugo Sans;
     font-size: 20pt; /* Slightly smaller font size for H2 */
     color: #555; /* Dark gray color for H2 */
-    
+    position: absolute; /* taken out of the normal flow of the document */
+    text-align: center;
     top: 50%; /* moved down by 50% of the screen height */
+
 }
 
 p {
