@@ -33,10 +33,11 @@ p {
     line-height: 1.5;
 }
 
-.btn-group {
+
+.buttons {
     background-color: transparent;
     border: none;
-    color: #c52e81;
+    color: white;
     padding: 12px 28px;
     text-align: center;
     text-decoration: none;
@@ -49,15 +50,35 @@ p {
     transform: translateX(-50%) translateY(-50%);
 }
 
-.btn-group:visited {
+.buttons:visited {
     color: #660066; /* Purple for visited links */
 }
 
-.btn-group:hover {
+.buttons:hover {
     color: #ff3300; /* Red for hover effect */
 }
 
-.btn-group:active {
+.buttons:active {
     color: #003366; /* Dark blue for active state */
 }
 
+.btn {
+    background-color: #c52e81;
+    font-family: Pulang;
+    font-size: 16px;
+    position: absolute; /* taken out of the normal flow of the document */
+    top: 40%; /* moved down by 40% of the screen height */
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+#yesButton {
+    position: absolute;
+    margin-right: 50%;
+    
+}
+
+#noButton {
+    position: absolute;
+    margin-left: 50%;
+
+}
