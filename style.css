@@ -5,10 +5,6 @@ body {
     background-color: #faecf6; /* Background color other than white */
     color: #333; /* Foreground color other than black */
     margin: 20px;
-    position: absolute; /* taken out of the normal flow of the document */
-    top: 20%; /* moved down by 20% of the screen height */
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
 
 }
 
@@ -37,22 +33,31 @@ p {
     line-height: 1.5;
 }
 
-button {
+.btn-group {
+    background-color: transparent;
+    border: none;
+    color: #c52e81;
+    padding: 12px 28px;
     text-align: center;
-    color: #009688;
     text-decoration: none;
-    font-weight: bold;
+    display: inline-block;
+    font-family: Pulang;
+    font-size: 16px;
+    position: absolute; /* taken out of the normal flow of the document */
+    top: 40%; /* moved down by 40% of the screen height */
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
-button:visited {
+.btn-group:visited {
     color: #660066; /* Purple for visited links */
 }
 
-button:hover {
+.btn-group:hover {
     color: #ff3300; /* Red for hover effect */
 }
 
-button:active {
+.btn-group:active {
     color: #003366; /* Dark blue for active state */
 }
 
