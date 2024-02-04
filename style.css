@@ -12,7 +12,7 @@ h1 {
     font-family: Bakso Sapi;
     font-size: 24pt; /* Larger font size for H1 */
     color: #e291c0; /* Blue color for H1 */
-    vertical-align: middle
+    margin: 0; 
 }
 
 h2 {
@@ -20,7 +20,7 @@ h2 {
     font-family: Nugo Sans;
     font-size: 20pt; /* Slightly smaller font size for H2 */
     color: #555; /* Dark gray color for H2 */
-    vertical-align: middle
+    margin: 0; 
 }
 
 p {
