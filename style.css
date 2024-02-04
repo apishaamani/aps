@@ -13,7 +13,7 @@ h1 {
     font-size: 24pt; /* Larger font size for H1 */
     color: #e291c0; /* Blue color for H1 */
     position: absolute; /* taken out of the normal flow of the document */
-    top: 50%; /* moved down by 50% of the screen height */
+    top: 30%; /* moved down by 30% of the screen height */
 }
 
 h2 {
