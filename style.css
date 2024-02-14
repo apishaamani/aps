@@ -73,12 +73,12 @@ p {
 }
 #yesButton {
     position: absolute;
-    margin-right: 50%;
+    margin-right: 40%;
     
 }
 
 #noButton {
     position: absolute;
-    margin-left: 50%;
+    margin-left: 60%;
 
 }
