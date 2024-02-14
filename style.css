@@ -64,7 +64,7 @@ p {
 
 .btn {
     background-color: #e291c0;
-    border: 2px white;
+    border: 5px white;
     font-family: Pulang;
     font-size: 16px;
     position: absolute; /* taken out of the normal flow of the document */
