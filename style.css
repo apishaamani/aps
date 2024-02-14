@@ -5,7 +5,6 @@ body {
     background-color: #faecf6; /* Background color other than white */
     color: #333; /* Foreground color other than black */
     margin: 20px;
-    left: 50%
 
 }
 
@@ -75,6 +74,7 @@ p {
 #yesButton {
     position: absolute;
     margin-right: 40%;
+    color: white;
     
 }
 
