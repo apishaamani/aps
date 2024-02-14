@@ -63,7 +63,7 @@ p {
 }
 
 .btn {
-    background-color: #c52e81;
+    background-color: transparent;
     font-family: Pulang;
     font-size: 16px;
     position: absolute; /* taken out of the normal flow of the document */
@@ -81,5 +81,6 @@ p {
 #noButton {
     position: absolute;
     margin-left: 60%;
+    color: white;
 
 }
