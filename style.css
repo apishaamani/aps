@@ -88,8 +88,7 @@ p {
 
 }
 .cat1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    background-size: contains;
+    width: 300px;
+    height: 300px;
   }
