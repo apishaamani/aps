@@ -88,6 +88,6 @@ p {
 
 }
 .cat1 {
-    display: center;
+    text-align: center;
     background-size: auto;
   }
