@@ -88,5 +88,6 @@ p {
 
 }
 .cat1 {
+    display: center;
     background-size: auto;
   }
