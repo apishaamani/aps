@@ -68,8 +68,8 @@ p {
     font-family: Pulang;
     font-size: 16px;
     position: absolute; /* taken out of the normal flow of the document */
-    top: 40%; /* moved down by 40% of the screen height */
- 
+    top: 70%; /* moved down by 40% of the screen height */
+    left: 50%;
     transform: translateX(-50%) translateY(-50%);
     cursor: pointer;
     color: white;
