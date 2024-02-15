@@ -70,7 +70,6 @@ p {
     position: absolute; /* taken out of the normal flow of the document */
     top: 70%; /* moved down by 70% of the screen height */
     left: 50%;
-    transform: translateX(-50%) translateY(-70%);
     cursor: pointer;
     color: white;
 }
