@@ -89,5 +89,7 @@ p {
 }
 .cat1 {
     display: block;
+    margin-left: 50%;
+    margin-top: 50%;
     background-size: auto;
   }
